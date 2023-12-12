@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendidikan Teknik Informatika dan Komputer</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img class="logo" src="assets/logo.png">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="academic.html">Academic</a></li>
+                    <li><a href="facility.html">Fasility</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>  
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Profil Program Studi S1-Pendidikan Teknik Informatika dan Komputer</h1>
+                <p>Under the auspices of the PTK department, the PTIK study program will focus on study materials in the field of vocational education in the field of information technology and computers. Departing from the focus of study materials in the field of vocational education in the field of 
+                    information technology and computers, the PTIK study program curriculum is prepared on the basis of vocational education science and information technology and computer science. Educational Science Foundations (vocational education) are provided through educational subjects such as Education Fundamentals, Learning Technology, Educational Professions, Inclusive Education, 
+                    Guidance and Counseling, and Student Development. This education field is given in all study programs at FKIP UNS as a group of Basic Educational Subjects (MKDK). In addition to courses included in the MKDK group, courses that support the professional duties of an educator are also given, such as Educational Evaluation, Learning Planning, and Teaching and Learning Strategies. 
+                    Meanwhile, for the development of competence in the field of education, students are also provided with research subjects in the field of education, 
+                    micro teaching and teaching practice (PPL). The curriculum in the education sector is also adapted to the existence of the PTIK study program under the CAR program which focuses on the field of vocational education (vocational education).</p>
+                <a href="" class="hero-btn blue-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <iframe width="760" height="500" src="https://www.youtube.com/embed/ijdrsNmd1YE?si=7njWqOq6wgmbiPk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p></p>
+        <div class="icons">
+            <a href="https://www.instagram.com/ptik_uns/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://web.facebook.com/p/Pendidikan-TIK-UNS-100024194692446/?paipv=0&eav=AfZy6O1jl15DW_Y-MV_ag5OAGbx4SdlpswF0RVboOYDPgL3qT2rguSh1LLX9m-ihIhs&_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/PTIK_uns" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/uns?trk=public_profile_experience-item_profile-section-card_image-click&originalSubdomain=id" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>
+            &copy; 2023 Copyright. All rights reserved.<br>
+            Informatics and Computer Engineering Education<br>
+            Universitas Sebelas Maret
+        </p>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
